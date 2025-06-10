@@ -1,6 +1,6 @@
 import requests
 import os
-#dont add .env to repo in github!!!!
+
 # ------------------ GLOBALS ------------------ #
 personal_access_token = os.getenv("GITHUB_TOKEN")
 account_name = os.getenv("ACCOUNT_NAME")
